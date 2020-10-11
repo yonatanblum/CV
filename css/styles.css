@@ -6,24 +6,26 @@ body {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted grey 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
 }
 
 h1 {
-  font-size: 5.625rem;
-  margin: 2.6rem auto 0 auto;
+  font-size: 8rem;
+  margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+  color: #070d59;
+  text-shadow: 2px 2px #f6f5f5;
   line-height: 2;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  color: #66BFBF;
+  font-size: 3rem;
+  color: #070d59;
+  text-shadow: 2px 2px #f6f5f5;
   font-weight: normal;
   padding-bottom: 10px;
 }
@@ -59,7 +61,14 @@ a:hover{
 .top-container {
   background-color: #d2f5e3;
   position: relative;
-  padding-top: 100px;
+  margin-top:0;
+  padding-top: 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-attachment: fixed; */
+  height: 1100px;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80");
 }
 
 .middle-container {
@@ -90,13 +99,13 @@ a:hover{
 
 .code-img {
   margin-right: 30px;
-  width: 30%;
+  width: 25%;
   float: left;
 }
 
 .time-work-img {
   margin-left: 30px;
-  width: 30%;
+  width: 25%;
   float: right;
 }
 
@@ -104,8 +113,9 @@ a:hover{
   text-decoration: underline;
 }
 
+
 .intro {
-  width: 30%;
+  width: 60%;
   margin: auto;
 }
 
@@ -114,12 +124,14 @@ a:hover{
   position: absolute;
   left: 250px;
   bottom: 300px;
+  display: none;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 40px;
+  display: none;
 }
 
 
