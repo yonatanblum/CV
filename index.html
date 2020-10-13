@@ -3,17 +3,58 @@
 
 <head>
   <title>CV Yonatan Blum</title>
-  <link rel="stylesheet" href=".\css\styles.css">
+
+  <meta charset="utf-8">
+  <!-- Top Web Icon  -->
   <link rel="icon" href=".\images\yb.ico">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+
+  <!--CSS stylesheet Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+
   <div class="top-container">
-    <img class="top-cloud" src=".\images\cloud.png" alt="cloud-img">
+  <div class="container-fluid">
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg ">
+      <a class="navbar-brand" href="">CV Yonatan Blum</a>
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">My Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
     <h1>I'm Yonatan.</h1>
     <h2>A Software Developer</h2>
-    <img class="bottom-cloud" src=".\images\cloud.png" alt="cloud-img">
     <!-- <img src=".\images\mountain.png" alt="mountain-img"> -->
   </div>
 
@@ -22,18 +63,24 @@
       <img src="https://github.com/yonatanblum/CV/blob/main/images/circle-cropped%20YB%20profile.png?raw=true" alt="Yonatan profile picture">
       <h2>About Me.</h2>
       <p class="intro">I am Software Engineering Student. Wide knowledge in various programming
-languages. Studied Practical Electronics Engineer, graduated with honor,
-Served in 8200-unit.
-Eager to sharpen my engineering skills in the industry. Focused and quick learner,
-Thorough, creative, responsible, and excited to be challenged.</p>
+        languages. Studied Practical Electronics Engineer, graduated with honor,
+        Served in 8200-unit.
+        Eager to sharpen my engineering skills in the industry. Focused and quick learner,
+        Thorough, creative, responsible, and excited to be challenged.</p>
     </div>
     <hr>
     <div class="skills">
       <h2>My Skills.</h2>
       <div class="skill-row">
-        <img class="code-img" src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" alt="code-img">
-        <h3>Developer & Good teem</h3>
-        <p class="code-skill-description">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        <!-- <img class="code-img" src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" alt="code-img"> -->
+        <h3>Programming Skills</h3>
+        <!-- <p class="code-skill-description"></p> -->
+        <ul>
+          <li>Python, Java, C, Bash . Thorough understanding of OOP.</li>
+          <li>HTML5, CSS3, SQL</li>
+          <li>OS: Linux , Windows</li>
+          <li>Selenium IDE, Postman</li>
+          <li>Spring Framework.</li>
       </div>
       <div class="skill-row">
         <img class="time-work-img" src="https://media.giphy.com/media/SsxPmQc0vV3tBHAHrK/giphy.gif" alt="time-work-img">
@@ -41,19 +88,20 @@ Thorough, creative, responsible, and excited to be challenged.</p>
         <p class="employment-description">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
       </div>
     </div>
+    <br>
     <hr>
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <h3>Lorem ipsum dolor sit amet, non elit.</h3>
       <p class="contact-message"">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn" href="mailto:yonatanblum1@email.com">CONTACT ME</a>
+      <a class=" btn" href="mailto:yonatanblum1@email.com">CONTACT ME</a>
     </div>
   </div>
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <a class="footer-link" href="https://linkedin.com/in/yonatan-blum-548a13168/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a class="footer-link" href="https://github.com/yonatanblum/"><i class="fab fa-github"></i> Github</a>
+    <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
     <p class="copyright">© 2020 Yonatan Blum.</p>
   </div>
 
