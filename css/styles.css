@@ -27,17 +27,18 @@ h2 {
   color: #070d59;
   text-shadow: 2px 2px #f6f5f5;
   font-weight: normal;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
+  padding: 0;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #070d59;
 }
 
 div {
   margin-top: 100px;
-  ;
+
   /* height: 20%;
   border-width:500px;
   padding: 20px; */
@@ -48,7 +49,8 @@ p {
 }
 
 a{
-  color: #11999E;
+  /* color: #11999E; */
+  color: #070d59;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -57,6 +59,44 @@ a{
 a:hover{
   color:#EAF6F6;
 }
+
+/* Navigation Bar */
+.container-fluid{
+  padding: 0% 5%;
+  /* background-color: #070d59; */
+  margin-top: 0;
+
+}
+
+.navbar{
+  padding: 0  0 0rem 0;
+}
+
+.navbar-collapse{
+  margin-top: 0;
+
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  font-weight:bold;
+  color:#EAF6F6;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+.navbar-toggler-icon{
+  color: #070d59;
+}
+
+/* Title! */
 
 .top-container {
   background-color: #d2f5e3;
@@ -89,10 +129,12 @@ a:hover{
   font-size: 0.75rem;
   padding: 20px 0;
 }
-
+.skills{
+  background: #f4f4f4;
+}
 .skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+  width: 60%;
+  margin: 1px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
@@ -115,7 +157,7 @@ a:hover{
 
 
 .intro {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
